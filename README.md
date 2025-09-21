@@ -42,11 +42,10 @@ Antes de rodar o projeto, instale os seguintes itens:
   Normalmente já vem junto com o Flutter, mas você pode instalar separadamente:  
   [Instalação oficial do Dart](https://dart.dev/get-dart)
 
-- **Android Studio** *(necessário apenas para builds Android)*  
-  Instale o Android Studio e o Android SDK  
+- **Android Studio**  
   Configure variáveis de ambiente `ANDROID_HOME` e `PATH`
 
-- **.NET SDK** *(apenas se houver integração com serviços .NET)*  
+- **.NET SDK** *(Obrigatorio para builds windows)*  
   [Download do .NET](https://dotnet.microsoft.com/en-us/download)
 
 - **Editor de código (opcional)**  
