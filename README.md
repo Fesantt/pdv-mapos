@@ -12,3 +12,11 @@ No banco de dados do MapOS, adicione a seguinte coluna na tabela `usuarios`:
 
 ```sql
 ALTER TABLE usuarios ADD COLUMN codigo_pdv VARCHAR(50);
+
+
+Adicionar o Pdv.php na pasta controllers do MAP-OS
+```
+
+
+
+
