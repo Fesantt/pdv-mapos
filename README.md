@@ -1,7 +1,7 @@
 # 🖥️ PDV Flutter (Windows / Web)
 
 Este é um projeto de **PDV (Ponto de Venda)** desenvolvido em **Flutter**, compatível com **Windows** e **Web**.  
-Ele se integra com o backend **MapOS**, permitindo gerenciar usuários, vendas e configurações diretamente do aplicativo.
+Ele se integra com o backend **MapOS**, permitindo realizar vendas.
 
 ---
 
