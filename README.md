@@ -1,16 +1,14 @@
 # pdv
 
-A new Flutter project.
+Este é um novo projeto Flutter.
 
-## Getting Started
+## ⚙️ Requisitos de Integração com o Backend (MapOS)
 
-This project is a starting point for a Flutter application.
+Para garantir que a funcionalidade de PDV funcione corretamente com o backend (MapOS), siga as instruções abaixo:
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Criar a coluna `codigo_pdv` na tabela `usuarios`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+No banco de dados do MapOS, adicione a seguinte coluna na tabela `usuarios`:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sql
+ALTER TABLE usuarios ADD COLUMN codigo_pdv VARCHAR(50);
