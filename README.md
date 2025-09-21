@@ -15,6 +15,10 @@ ALTER TABLE usuarios ADD COLUMN codigo_pdv VARCHAR(50);
 
 
 Adicionar o Pdv.php na pasta controllers do MAP-OS
+
+
+
+Adicionar CLIENTE_PADRAO_ID_VENDAS no .env do map-os
 ```
 
 
